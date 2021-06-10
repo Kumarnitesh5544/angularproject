@@ -6,8 +6,8 @@
         <hr>
         <ul class="fa-ul">
           <li  *ngFor="let offer1 of priceObj.offers"  [ngClass]="{'text-muted':!offer1.isEnable}"><span class="fa-li"><i class="fas fa-check"></i></span>
-            <strong *ngIf="offer1.isbold">{{offer1.offer}}</strong>
-            <span *ngIf="!offer1.isbold">{{offer1.offer}}</span> 
+            <strong *ngIf="!offer1.isbold">{{offer1.offer}}</strong>
+            <span *ngIf="offer1.isbold">{{offer1.offer}}</span> 
           </li>
       <!--    <li><span class="fa-li"><i class="fas fa-check"></i></span>{{"sa"}}</li>
           <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Storage</li>

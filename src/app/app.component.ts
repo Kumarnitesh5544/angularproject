@@ -9,69 +9,144 @@ export class AppComponent {
   title = 'chubbfirstp';
    data: Array<priceObj>=[
      {
-        planName: "abcd",
-        currency:"100",
-        price: 100,
-        period:"12",
+        planName: "Free",
+        currency:"$",
+        price: 0,
+        period:"per month",
         offers :[
           {
-            offer:"def",
+            offer:"Single User",
             isEnable:true,
             isbold:true
           },
           {
-            offer:"efg",
+            offer:"5GB Storage",
             isEnable:true,
             isbold:true
           },
           {
-            offer:"def",
+            offer:"Unlimited Public Projects",
             isEnable:true,
+            isbold:true
+          },
+          {
+            offer:"Community Access",
+            isEnable:true,
+            isbold:true
+          },
+          {
+            offer:"Unlimited Private Projects",
+            isEnable:false,
+            isbold:true
+          },
+          {
+            offer:"Dedicated Phone Support",
+            isEnable:false,
+            isbold:true
+          },
+          {
+            offer:"Free Subdomain",
+            isEnable:false,
+            isbold:true
+          },
+          {
+            offer:"Monthly Status Reports",
+            isEnable:false,
             isbold:true
           }
         ]
      },
      {
-      planName: "efgh",
-      currency:"100",
-      price: 100,
-      period:"12",
+      planName: "PLUS",
+      currency:"$",
+      price: 9,
+      period:"/month",
       offers :[
         {
-          offer:"def",
+          offer:"5 User",
+          isEnable:true,
+          isbold:false
+        },
+        {
+          offer:"50GB Storage",
           isEnable:true,
           isbold:true
         },
         {
-          offer:"efg",
+          offer:"Unlimited Public Projects",
           isEnable:true,
           isbold:true
         },
         {
-          offer:"def",
+          offer:"Community Access",
           isEnable:true,
+          isbold:true
+        },
+        {
+          offer:"Unlimited Private Projects",
+          isEnable:true,
+          isbold:true
+        },
+        {
+          offer:"Dedicated Phone Support",
+          isEnable:true,
+          isbold:true
+        },
+        {
+          offer:"Free Subdomain",
+          isEnable:true,
+          isbold:true
+        },
+        {
+          offer:"Monthly Status Reports",
+          isEnable:false,
           isbold:true
         }
       ]
      },
      {
-      planName: "ijkl",
-      currency:"100",
-      price: 100,
-      period:"12",
+      planName: "PRO",
+      currency:"$",
+      price: 49,
+      period:"per month",
       offers :[
         {
-          offer:"def",
+          offer:"Unlimited User",
+          isEnable:true,
+          isbold:false
+        },
+        {
+          offer:"5GB Storage",
           isEnable:true,
           isbold:true
         },
         {
-          offer:"efg",
+          offer:"Unlimited Public Projects",
           isEnable:true,
           isbold:true
         },
         {
-          offer:"def",
+          offer:"Community Access",
+          isEnable:true,
+          isbold:true
+        },
+        {
+          offer:"Unlimited Private Projects",
+          isEnable:true,
+          isbold:true
+        },
+        {
+          offer:"Dedicated Phone Support",
+          isEnable:true,
+          isbold:true
+        },
+        {
+          offer:"Unlimited Free Subdomain",
+          isEnable:true,
+          isbold:true
+        },
+        {
+          offer:"Monthly Status Reports",
           isEnable:true,
           isbold:true
         }
